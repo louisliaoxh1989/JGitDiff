@@ -76,7 +76,7 @@ public class RepoDiff {
 
 		if(commit) {
 			// and then commit the changes
-			git.commit().setMessage("Added fileContentOld").call();
+			git.commit().setMessage("Added fileContent").call();
 		}
 		
 		fos.close();
