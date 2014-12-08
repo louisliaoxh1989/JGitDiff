@@ -25,7 +25,7 @@ public class RepoDiff {
 			
 			// create the file
 			commitFileContent(fileContentOld, repository, git, true);
-			commitFileContent(fileContentNew, repository, git, false);
+			commitFileContent(fileContentNew, repository, git, true);
 	    	
 						
 	        // The {tree} will return the underlying tree-id instead of the commit-id itself!
