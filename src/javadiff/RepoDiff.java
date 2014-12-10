@@ -29,7 +29,7 @@ public class RepoDiff {
 	    	
 						
 	        // The {tree} will return the underlying tree-id instead of the commit-id itself!
-	        ObjectId oldHead = repository.resolve("HEAD^^^^{tree}");
+	        ObjectId oldHead = repository.resolve("HEAD~1^{tree}");
 	        ObjectId head = repository.resolve("HEAD^{tree}");
 
 	        System.out.println("Printing diff between tree: " + oldHead + " and " + head);
